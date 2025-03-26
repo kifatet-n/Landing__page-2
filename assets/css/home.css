@@ -1,0 +1,36 @@
+.home__container {
+  row-gap: 0.5rem;
+}
+.home__img {
+  width: 280px;
+  justify-self: center;
+}
+.home__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.home__description {
+  margin-bottom: 1.5rem;
+}
+.button {
+  display: inline-block;
+  background-color: #da2535;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #da2535;
+}
+.button-link {
+  background: none;
+  padding: 0;
+  color: #da2535;
+}
+.button-link:hover {
+  background-color: transparent;
+  color: #c42130;
+}

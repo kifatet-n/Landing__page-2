@@ -1,0 +1,10 @@
+.share__data {
+  text-align: center;
+}
+.share__description {
+  margin-bottom: 1rem;
+}
+.share__img {
+  width: 280px;
+  justify-content: center;
+}
