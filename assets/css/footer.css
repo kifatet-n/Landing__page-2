@@ -2,9 +2,7 @@
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   padding: 1rem;
 }
-.footer__logo {
-  color: #161212;
-}
+
 .footer__title {
   margin-bottom: 1rem;
 }

@@ -39,7 +39,7 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 968px) { 
   :root {
     --biggest-font-size: 3rem;
     --h2-font-size: 1.75rem;
@@ -87,7 +87,7 @@ body {
 
 h1,
 h2,
-h3 {
+h3 a  {
   font-weight: 700;
   color: var(--title-color);
 }
@@ -99,6 +99,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+i{
+  color: var(--title-color)
+
 }
 
 img {
@@ -118,39 +122,8 @@ img {
   text-align: center;
   margin-bottom: var(--mb-3);
 }
-/* -----------SEND GIFT-------- */
-.send {
-  background-color: #de3b49;
-  padding: 1rem;
-}
-.send__title,
-.send__description {
-  color: #fff;
-}
-.send__description {
-  text-align: center;
-  margin-bottom: var(--mb-4);
-}
-.send__direction {
-  display: flex;
-  background-color: #fff;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-}
-.send__input {
-  width: 90%;
-  outline: none;
-  border: none;
-  font-size: var(--normal-font-size);
-  font-family: var(--body-font);
-}
-.send__input::placeholder {
-  font-family: var(--body-font);
-}
-.send__img {
-  width: 280px;
-  justify-self: center;
-}
+
+
 /* media queries */
 /* For full-screen images on small screens */
 @media screen and (max-width: 359px) {
